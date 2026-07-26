@@ -1,1 +1,35 @@
+.header li {
+    list-style: none;
+}
 
+.header {
+    height: 50px;
+    background-color: aqua;
+}
+
+.header-icon img {
+    float: left;
+    height: 50px;
+    background-size: cover;
+}
+
+.header-list li {
+    float: left;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.main {
+    width: 300px;
+    margin: 0 auto;
+    background-color: yellow;
+    text-align: center;
+}
+
+.main-title {
+    letter-spacing: 10px;
+}
+
+.footer {
+    background-color: aquamarine;
+}
