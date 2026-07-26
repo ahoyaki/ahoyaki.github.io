@@ -1,3 +1,9 @@
+.top-wrapper {
+    height: 1170px;
+    background-image: url("https://raw.githubusercontent.com/ahoyaki/ahoyaki.github.io/refs/heads/main/images/background-image.jpg");
+    background-size: cover;
+}
+
 .header li {
     list-style: none;
 }
@@ -10,7 +16,6 @@
 .header-icon img {
     float: left;
     height: 50px;
-    background-size: cover;
 }
 
 .header-list li {
