@@ -1,28 +1,38 @@
 .top-wrapper {
-    height: 1170px;
+    margin-top: 60px;
+    height: 1280px;
     background-image: url("https://raw.githubusercontent.com/ahoyaki/ahoyaki.github.io/refs/heads/main/images/background-image.jpg");
     background-size: cover;
 }
 
 .header li {
+    font-size: 20px;
+    padding: 10px 40px;
+    float: left;
     list-style: none;
+    text-align: center;
 }
 
 .header {
-    height: 50px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 60px;
+    width: 100%;
     background-color: aqua;
 }
 
 .header-icon img {
     float: left;
-    height: 50px;
+    height: 60px;
 }
 
-.header-list li {
-    float: left;
-    font-size: 20px;
-    padding: 10px 20px;
+.en {
+    display: block;
+    color: gray;
+    font-size: 15px;
 }
+
 
 .main {
     width: 300px;
