@@ -1,6 +1,7 @@
 .top-wrapper {
     margin-top: 60px;
-    height: 1280px;
+    padding-top: 30px;
+    height: 625px;
     background-image: url("https://raw.githubusercontent.com/ahoyaki/ahoyaki.github.io/refs/heads/main/images/background-image.jpg");
     background-size: cover;
 }
@@ -45,6 +46,18 @@
     letter-spacing: 10px;
 }
 
+.sub-title {
+
+    font-style: italic;
+    letter-spacing: 5px;
+}
+
 .footer {
-    background-color: aquamarine;
+    height: 300px;
+    color: white;
+    background-color: black;
+}
+
+.footer a {
+    color: white;
 }
